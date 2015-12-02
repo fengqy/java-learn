@@ -8,7 +8,7 @@ public class Business {
 
     private boolean shouldDone = true;
 
-    //Ö÷Ïß³ÌÖ´ĞĞ100´Î
+    //ä¸»çº¿ç¨‹æ‰§è¡Œ100æ¬¡
     public synchronized void mian(int j) {
         while (shouldDone) {
             try {
@@ -25,7 +25,7 @@ public class Business {
         this.notifyAll();
     }
 
-    //×ÓÏß³ÌÖ´ĞĞ10´Î
+    //å­çº¿ç¨‹æ‰§è¡Œ10æ¬¡
     public synchronized void sub(int j) {
         while (!shouldDone) {
             try {
