@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
 
 /**
- * 为每个线程放独立的数据，每个线程，在每个模块中取到的数据一样
+ * 为每个线程放独立的数据，每个线程，在每个模块中取到的数据一样，线程范围内共享数据
  * @author fengqy
  * @date 2015/12/2.
  */
